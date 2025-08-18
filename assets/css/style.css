@@ -1,0 +1,132 @@
+@font-face {
+    font-family: yekanbakh;
+    src: url('/assets/font/YekanBakhFaNum/woff/YekanBakhFaNum-Bold.woff');
+    src: url('/assets/font/YekanBakhFaNum/woff2/YekanBakhFaNum-Bold.woff2');
+}
+
+body {
+    text-align: center;
+    direction: rtl;
+    font-family: yekanbakh;
+}
+
+.registersection {
+    width: 25%;
+    border: solid 1px black;
+    border-radius: 10px;
+    text-align: justify;
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+
+}
+
+.title h1 {
+    background: linear-gradient(to right, #FAFF00, #00E0FF);
+    display: inline-block;
+    background-clip: text;
+    color: rgba(0, 0, 0, 0.11);
+    margin-bottom: 0;
+}
+
+.title h5 {
+    margin-top: 5px;
+}
+
+.title span {
+    color: red;
+}
+
+form {
+    text-align: center;
+    width: 100%;
+}
+
+.halfsection {
+    display: inline-block;
+    text-align: justify;
+    width: 45%;
+}
+
+.lineinput {
+    display: inline-block;
+    text-align: justify;
+    width: 90%;
+    margin-top: 10px;
+}
+
+form .lineinput input,
+.halfsection input {
+    border: none;
+    width: 90%;
+    height: 25px;
+    ;
+    border-radius: 100px;
+    background: linear-gradient(to right, #FF8A00, #DBFF00);
+    margin-top: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.274) inset;
+    font-family: inherit;
+    font-size: 10px;
+
+}
+
+.checkboxsection {
+    text-align: justify;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.checkboxsection label {
+
+    font-size: 10px;
+}
+
+.checkboxsection input {
+    width: 10px;
+    vertical-align: sub;
+}
+
+button {
+    width: 60%;
+    height: 35px;
+    ;
+    background-color: #FF8A00;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    margin-top: 10px;
+    font-family: yekanbakh;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+
+button:hover {
+    box-shadow: 0 0 10px 0 rgba(2, 2, 16, 0.362);
+}
+
+button:focus {
+    box-shadow: 0 0 10px 0 rgba(2, 2, 16, 0.362) inset;
+    background-color: red;
+}
+
+input::placeholder {
+    color: rgba(2, 2, 16, 0.362);
+}
+
+.gendersection {
+    text-align: justify;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+@media (max-width: 413px) {
+    .registersection {
+    width: 100%;
+    padding: 20px 0 20px 0;   
+}
+.title h1 {
+    padding-right: 20px;
+}
+.title h5 {
+    padding-right: 20px;
+}
+}
