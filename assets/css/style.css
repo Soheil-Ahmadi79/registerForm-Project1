@@ -118,7 +118,7 @@ input::placeholder {
     margin-top: 10px;
     padding-right: 20px;
 }
-@media (max-width: 413px) {
+@media (max-width: 600px) {
     .registersection {
     width: 100%;
     padding: 20px 0 20px 0;   
